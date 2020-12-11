@@ -3,6 +3,6 @@
   "date": "2020-11-25T21:08:08.136Z",
   "title": "CalStatePays",
   "description": "Data visualization web app where college bound students, counselors, and parents can view potental earnings from a selection of 7 California State Universities and a potential major.",
-  "body": "## Paper Wireframes\n## Final Product",
+  "body": "\n## Background\nCSUN professor of management Richard W. Moore quested the META+LAB team to develop a data visualization web application. This was the first project I got to work as part time Front-End developer at META+LAB. I used my knowledge of graphic design and learn how the application can leverage the Vue framework.\n\n## Early Stages\n\n### Paper Wireframes\n\n### Adobe XD\n\n## Final Product\n\n## Takeaways\nI had the chance to work with a wonder teammate to help build CalStatePays. As we were working on the project, I quickly realized about the importance of communication and code quality. Every member of the must have a clear idea of their responsible. It also does not hurt to assistant from fellow developers.  \n\n## Publicity\n* [Cal Poly Pomona PolyCentric](http://polycentric.cpp.edu/2019/03/website-shows-potential-salary-earnings-of-cpp-graduates/)\n* [CSUN Today](https://csunshinetoday.csun.edu/community/when-economy-slows-university-degrees-deliver-great-value-csun-experts/)",
   "cover": "/img/calstatepays-project.png"
 }
