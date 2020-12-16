@@ -13,7 +13,7 @@ import ColorModePicker from '~/components/general/ColorModePicker.vue'
 export default {
   components: {
     Header,
-    ColorModePicker
-  }
+    ColorModePicker,
+  },
 }
 </script>

@@ -1,6 +1,6 @@
 <template>
-  <div class="fixed bottom-0 left-0 m-3">
-    <component :is="`icon-${color}`" @click="changeColorMode" title="Toggle background color" />
+  <div class="fixed bottom-0 right-0 m-3">
+    <button @click="goToTop()">Back to Top</button>
   </div>
 </template>
 
@@ -15,11 +15,11 @@ export default {
   components: {
     IconSystem,
     IconLight,
-    IconDark
+    IconDark,
   },
   data() {
     return {
-      color: COLOR_MODE_FALLBACK
+      color: COLOR_MODE_FALLBACK,
     }
   },
   watch: {
@@ -34,32 +34,19 @@ export default {
         } else {
           this.color = COLOR_MODE_FALLBACK
         }
-      }
-    }
+      },
+    },
   },
   methods: {
-    changeColorMode() {
-      if (this.$colorMode.unknown) return (this.$colorMode.preference = COLOR_MODE_FALLBACK)
-
-      switch (this.$colorMode.preference) {
-        case 'light':
-          return (this.$colorMode.preference = 'dark')
-        case 'dark':
-          return (this.$colorMode.preference = 'light')
-        case 'system':
-          return (this.$colorMode.preference = this.$colorMode.value === 'dark' ? 'light' : 'dark')
-
-        default:
-          return (this.$colorMode.preference = COLOR_MODE_FALLBACK)
-      }
-    }
-  }
+    goToTop() {
+      window.scroll({
+        top: 100,
+        behavior: 'smooth',
+      })
+    },
+  },
 }
 </script>
 
 <style lang="postcss" scoped>
-.icon {
-  width: 44px;
-  height: 44px;
-}
 </style>
