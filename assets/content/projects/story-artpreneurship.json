@@ -3,5 +3,6 @@
   "date": "2021-01-12T05:18:13.343Z",
   "title": "Artpreneurship",
   "description": "A bespoke WordPress theme for an art program to promote entrepreneurial artists in collaboration with a web designer.",
-  "body": "## Project Specifications\n\n* Role: WordPress Developer\n* Project Type: WordPress Theme\n* Project Link: http://artpreneurship.org/\n* Source Code: [View on GitHub](https://github.com/JaimeGG64/artpreneurship-v1)\n* Technologies:\n  * PHP\n  * SCSS\n  * Advance Custom Fields\n\n## Background\nThe objective of the program is to allow prosperous artist to develop their entrepreneur skills. Which mean a Content Managment System (CMS) was the best use for this site\n\n"
+  "body": "## Project Specifications\n\n* Role: WordPress Developer\n* Project Type: WordPress Theme\n* Project Link: http://artpreneurship.org/\n* Source Code: [View on GitHub](https://github.com/JaimeGG64/artpreneurship-v1)\n* Technologies:\n  * PHP\n  * SCSS\n  * Advance Custom Fields\n\n## Background\nThe objective of the program is to allow prosperous artist to develop their entrepreneur skills. Which mean a Content Managment System (CMS) was the best use for this site\n\n",
+  "cover": "/img/artpreneurship-project.png"
 }
